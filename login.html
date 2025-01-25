@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate</title>
+  <style>
+    /* CSS for centering and styling the login box */
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+      background-size: cover;
+    }
+
+    .login-box {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      margin-top: 50px; /* Adjusted margin-top value */
+    }
+
+    .login-box h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"],
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .login-box input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .signup-link {
+      text-align: center;
+      font-size: 24px;
+      color: #007bff; /* Link color */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-box">
+    <h1>Real Estate</h1>
+    <form id="my-form" action="loginbackend" method="post">
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Email">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      
+      <div class="navigation-links">
+		  
+            <a href="home.jsp">Login</a>
+           
+        </div>
+      
+      
+      
+      <p class="signup-link">Not Registered? <a href="signup.html">Sign up</a></p>
+    </for
+  </div>
+</body>
+
+</html>
